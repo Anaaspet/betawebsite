@@ -15,6 +15,12 @@
 		margin-left: 0px;
 	}
 	
+	.imagefit {
+		height:500px; 
+		width:860px; 
+		overflow: hidden;
+	}
+	
 	@media (max-width: 979px) {
 
       .container.navbar-wrapper {
@@ -95,53 +101,41 @@
           <a class="brand" href="#">WPI BETA THETA PI</a>
       </div>
     </div>
-	<div>
-	</div>
-	-->
 	<div class="container body-container">
-		<div class="hero-unit" style="height:100%;"> <!--Hero-unit (gray background) height should expand to fit carousel images-->
-			<div class="row">
-				<div class="navbar2">
-					<div class="navbar-inner2">
-						<div class="container2">
-							<ul class="nav">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="recruitment.html">Go Beta</a></li>
-								<li><a href="news.html">News</a></li>
-								<li><a href="philanthropy.html">Philanthropy</a></li>
-								<li><a href="brotherhood.html">Brotherhood</a></li> <!-- dropdown = values --> 
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
+		<div class="row">
+			<div class="navbar2" style="padding-top:60px;">
+				<div class="navbar-inner2">
+					<div class="container2"> <!--How to center these vertically in the navbar? -->
+						<ul class="nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="recruitment.html">Go Beta</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="philanthropy.html">Philanthropy</a></li>
+							<li><a href="brotherhood.html">Brotherhood</a></li> <!-- dropdown = values --> 
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="span11" style="margin-right: 60px; margin-left: 60px; ">
-					<div id="myCarousel" style="" class="carousel slide" >
-						<div class="carousel-inner">
-							<div class="item active" style="width:100%"> <!--Always fill whole width of hero unit-->
- 								<img src="./images/appgroupfarewell.jpg" class="img-responsive" alt="">
+			</div>
+			<div class="span11" style="margin-right: 60px; margin-left: 60px;">
+				<div id="myCarousel" style="" class="carousel slide" > <!-- Image spills over past width of navbar on right. How fix? -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="imagefit">
+								<img src="./images/appgroupfarewell.jpg" class="img-responsive" alt="">
 								<div class="container">
-									<div class="carousel-caption">
+									<div class="carousel-caption"> <!-- CAPTIONS DONT EVEN SHOW UP WTF -->
 										<h1> HEADLINE </h1>
 										<p class="lead"> SAMPLE TEXT LINE 1</p>
 										<p class="lead"> SAMPLE TEXT LINE 2</p>
 									</div> 
 								</div>
 							</div>
-							
-							<div class="item" style="width:100%"> <!--Always fill whole width of hero unit-->
- 								<img src="./images/constitutionsigning.jpg" alt="">
-								<div class="container">
-									<div class="carousel-caption">
-										<h1> HEADLINE </h1>
-										<p class="lead"> SAMPLE TEXT LINE 1</p>
-										<p class="lead"> SAMPLE TEXT LINE 2</p>
-									</div> 
-								</div>
-							</div>
-							
-							<div class="item" style="width:100%"> <!--Always fill whole width of hero unit-->
- 								<img src="./images/letterday.jpg" alt="">
+						</div>
+						
+						<div class="item" > 
+							<div class="imagefit">
+								<img src="./images/constitutionsigning.jpg" alt="">
 								<div class="container">
 									<div class="carousel-caption">
 										<h1> HEADLINE </h1>
@@ -151,28 +145,44 @@
 								</div>
 							</div>
 						</div>
-						<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+						
+						<div class="item" > 
+							<div class="imagefit">
+								<img src="./images/letterday.jpg" alt="">
+								<div class="container">
+									<div class="carousel-caption">
+										<h1> HEADLINE </h1>
+										<p class="lead"> SAMPLE TEXT LINE 1</p>
+										<p class="lead"> SAMPLE TEXT LINE 2</p>
+									</div> 
+								</div>
+							</div>
+						</div>
 					</div>
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 				</div>
+				<div class="container" style="width:inherit;">
+					<div class="pull-left">
+						<address>
+							<strong>WPI BETA THETA PI</strong><br>
+							100 Institute Road<br>
+							Worcester, MA 01609<br>
+						</address>
+					</div>
+					
+					<div style="text-align:center;">
+						<button class="btn btn-large" >Meet The Brothers</button>
+					</div>
+				
+					<div class="pull-right"> <!-- This guy shows up beneath the first two. He should be in line with them -->
+						<a href="https://twitter.com/Beta_WPI"><img src="./images/twitter.png"/></a>
+						<a href="https://www.facebook.com/pages/Beta-Theta-Pi-Worcester-Polytechnic-Institute/364925203577997"><img src="./images/facebook.png"/></a>
+					</div>
+			</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="pull-left span5">
-				<address>
-					<strong>WPI BETA THETA PI</strong><br>
-					100 Institute Road<br>
-					Worcester, MA 01609<br>
-				</address>
-			</div>
-			
-			<button class="btn btn-large">Meet The Brothers</button>
-			
-			<div class="pull-right">
-				<a href="https://twitter.com/Beta_WPI"><img src="./images/twitter.png"/></a>
- 				<a href="https://www.facebook.com/pages/Beta-Theta-Pi-Worcester-Polytechnic-Institute/364925203577997"><img src="./images/facebook.png"/></a>
-			</div>
-		</div>
+		
 	</div>
 	</div>
 
