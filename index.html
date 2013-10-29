@@ -17,9 +17,14 @@
 	
 	.imagefit {
 		height:500px; 
-		width:860px; 
+		width:inherit; 
 		overflow: hidden;
 	}
+
+  .caption-container {
+    position: absolute;
+    bottom: 0px;
+  }
 	
 	@media (max-width: 979px) {
 
@@ -102,9 +107,9 @@
       </div>
     </div>
 	<div class="container body-container">
-		<div class="hero-unit">
+		<div class="hero-unit" style="background-color:#ffffff;">
 			<div class="row">
-				<div class="span11" style="margin-right: 60px; margin-left: 60px;">
+				<div class="span11" style="width:inherit; margin-left: 20px;">
 					<div class="navbar2" style="padding-top:20px;">
 						<div class="navbar-inner2">
 							<div class="container2">
@@ -119,12 +124,12 @@
 							</div>
 						</div>
 					</div>
-					<div id="myCarousel" style="" class="carousel slide" >
+					<div id="myCarousel" style="margin-bottom:0px;" class="carousel slide" >
 						<div class="carousel-inner">
 							<div class="item active">
 								<div class="imagefit">
 									<img src="./images/appgroupfarewell.jpg" class="img-responsive" alt="">
-									<div class="container">
+									<div class="container caption-container">
 										<div class="carousel-caption"> <!-- CAPTIONS DONT EVEN SHOW UP WTF -->
 											<h1> HEADLINE </h1>
 											<p class="lead"> SAMPLE TEXT LINE 1</p>
