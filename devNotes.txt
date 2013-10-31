@@ -1,13 +1,11 @@
--Change a few minor color things to match betathetapi.org
--Re-order the tabs, there was some disagreement as to the best order
 -Add dropdowns for the tabs
 CHECK -Add a "Values" section and a "Meet the brothers"
 CHECK -Change "About" to "Who We Are" or take it out completely
 CHECK -Change "Recruitment" to "Go Beta" or something
--"Add more blue... some lighter blue"
+IGNORE-"Add more blue... some lighter blue"
 CHECK -Maybe merge the blue banner with the links
 -GET A GOOD LOOKING BACKGROUND (calm blue?)
--Pictures of brothers on the reel (MAKE ANNOUNCEMENT) 
+CHECK -Pictures of brothers on the reel (MAKE ANNOUNCEMENT) 
 -Quote from the bridge builder or something
 -Purpose
 -Committees Tab
