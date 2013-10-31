@@ -89,6 +89,39 @@
       .carousel-caption .btn {
         font-size: 18px;
       }
+     }
+     
+     /* Featurettes
+         ------------------------- */
+     
+         .featurette-divider {
+           margin-bottom: 20px ; /* Space out the Bootstrap <hr> more */
+           margin-top: 20px;
+         }
+         .featurette {
+           overflow: hidden; /* Vertically center images part 2: clear their floats. */
+         }
+         .featurette-image {
+           margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+         }
+     
+         /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+         .featurette-image.pull-left {
+           margin-right: 40px;
+         }
+         .featurette-image.pull-right {
+           margin-left: 40px;
+         }
+     
+         /* Thin out the marketing headings */
+         .featurette-heading {
+           font-size: 50px;
+           font-weight: 300;
+           line-height: 1;
+           letter-spacing: -1px;
+         }
+      
+      
   </style>
   
 <script src="bootstrap/js/jquery-1.9.1.js"></script>
@@ -106,7 +139,7 @@
       </div>
     </div>
 	<div class="container body-container">
-		<div class="hero-unit" >
+		<div class="hero-unit" style="background-color:#ffffff;">
 			<div class="row">
 				<div class="span11" style="width:inherit; margin-left: 20px;">
 					<div class="navbar2" style="padding-top:20px;">
@@ -122,7 +155,92 @@
 							</div>
 						</div>
 					</div>
-					
+					<div class="container-marketing">
+						<hr class="featurette-divider">
+						<div class="featurette">
+							<img class="featurette-image pull-left" style="max-height:200px; margin-top: 20px;" src="./images/composites/seanweaver.jpg">
+							<h2 class="featurette-heading">
+							President
+							</h2>
+							<p class="lead">
+							Email: smweaver @ wpi.edu<br>
+							Phone: 913-269-0980
+							</p>
+						</div>
+						
+						<hr class="featurette-divider">
+						<div class="featurette"> 
+							<img class="featurette-image pull-right" style="max-height:200px; margin-top: 20px;" src="./images/composites/daviddistefano.jpg">
+							<h2 class="featurette-heading">
+						    Recruitment
+							</h2>
+							<p class="lead">
+							Email: dmdistefano @ wpi.edu<br>
+							Phone: 978-852-9709
+							</p>
+						</div>
+						
+						<hr class="featurette-divider">
+						<div class="featurette">
+							<img class="featurette-image pull-left" style="max-height:200px; margin-top: 20px;" src="./images/composites/samfriedman.jpg">
+							<h2 class="featurette-heading">
+							Communications
+							</h2>
+							<p class="lead">
+							Email: slfriedman @ wpi.edu<br>
+							Phone: 607-267-8857
+							</p>
+						</div>
+						
+						<hr class="featurette-divider">
+						<div class="featurette">
+							<img class="featurette-image pull-right" style="max-height:200px; margin-top: 20px;" src="./images/composites/jeremykibby.jpg">
+							<h2 class="featurette-heading">
+							Brotherhood
+							</h2>
+							<p class="lead">
+							Email: jkibby @ wpi.edu<br>
+							Phone: 310-405-4632
+							</p>
+						</div>
+						
+						<hr class="featurette-divider">
+						<div class="featurette">
+							<img class="featurette-image pull-left" style="max-height:200px; margin-top: 20px;" src="./images/composites/saadriaz.jpg">
+							<h2 class="featurette-heading">
+							Finance
+							</h2>
+							<p class="lead">
+							Email: sriaz @ wpi.edu <br>
+							Phone: 774-329-1977
+							</p>
+						</div>
+						
+						<hr class="featurette-divider">
+						<div class="featurette">
+							<img class="featurette-image pull-right" style="max-height:200px; margin-top: 20px;" src="./images/composites/tannerbuxton.jpg">
+							<h2 class="featurette-heading">
+							Programming
+							</h2>
+							<p class="lead">
+							Email: tbbuxton @ wpi.edu<br>
+							Phone: 508-963-1913
+							</p>
+						</div>
+						
+						<hr class="featurette-divider">
+						<div class="featurette">
+							<img class="featurette-image pull-left" style="max-height:200px; margin-top: 20px;" src="./images/composites/davidkarbassi.jpg">
+							<h2 class="featurette-heading">
+							Risk Management
+							</h2>
+							<p class="lead">
+							Email: dkarbassi1221 @ wpi.edu <br>
+							Phone: None
+							</p>
+						</div>
+						<hr class="featurette-divider" style="margin-bottom:10px;">
+						</div>
 				</div>
 			</div>
 		</div>
