@@ -1,3 +1,17 @@
+﻿Permissions:
+password:Betapass1
+user:betathetapi
+https://www.wpi.edu/Academics/CCC/Help/Unix/Webdev/webchmod.html
+
+-maybe get rid of top blue bar… replace with image of some sort??? 
+-add tushar
+-put names of execs
+-picture of us pointing up from hamilton's album
+-embed google calendar
+-bridge builder
+-check our orgsync page for pictures from saad
+-email tushar for shpeel about rush
+
 -Add dropdowns for the tabs
 CHECK -Add a "Values" section and a "Meet the brothers"
 CHECK -Change "About" to "Who We Are" or take it out completely
