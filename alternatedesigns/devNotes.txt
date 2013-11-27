@@ -1,0 +1,58 @@
+﻿Permissions:
+password:Betapass1
+user:betathetapi
+https://www.wpi.edu/Academics/CCC/Help/Unix/Webdev/webchmod.html
+
+-maybe get rid of top blue bar… replace with image of some sort??? 
+-add tushar
+-put names of execs
+-picture of us pointing up from hamilton's album
+-embed google calendar
+-bridge builder
+-check our orgsync page for pictures from saad
+-email tushar for shpeel about rush
+
+-Add dropdowns for the tabs
+CHECK -Add a "Values" section and a "Meet the brothers"
+CHECK -Change "About" to "Who We Are" or take it out completely
+CHECK -Change "Recruitment" to "Go Beta" or something
+IGNORE-"Add more blue... some lighter blue"
+CHECK -Maybe merge the blue banner with the links
+-GET A GOOD LOOKING BACKGROUND (calm blue?)
+CHECK -Pictures of brothers on the reel (MAKE ANNOUNCEMENT) 
+-Quote from the bridge builder or something
+-Purpose
+-Committees Tab
+CHECK -Move carousel down about 20px
+-Smaller icons? 
+-Make icon for facebook more visibile since that will likely have the most up-to-date content
+-Pictures of each exec on contact page
+-Phone number in content info on bottom of each screen (GOOGLE VOICE)
+-Gray background, white inner content section?
+CHECK? -WPI BETA THETA PI bolder 
+-Possibly use a lighter blue background? 
+-Contact info of recruitment director is prominent on the recruitment page
+-Calendar of rush events on recruitment page (jquery for calendar)
+-Do we really need philanthropy?
+-WPI BETA THETA PI or BETA THETA PI @ WPI? 
+-Maybe make top font a bit smaller
+-Min width on each page
+-More contrast between navbar and background
+-Put comms email in bottom of each page
+-EMAIL ASKING FOR CAMERA
+-Background for carousel (background merge) 
+-Alumni under brotherood
+-Copyright footer 
+-HOST WEBPAGE FROM DROPBOX
+-Have committees send updates and make their own pages
+-Content management system
+-PUT SHIT ON GIT
+
+
+MEET THE BROTHERS
+-Up in navbar? 
+-Seperate by class... or committee
+-Committees under brothers?
+
+Later:
+navbar scrolls with?
